@@ -1,9 +1,9 @@
 //Hitung Luas Segitiga
 console.log("Menghitung Luas Segitiga");
 alert("Mari menghitung luas segitiga!");
-const panjang = prompt("Masukkan panjang alas segitiga!");
+const alas = prompt("Masukkan panjang alas segitiga!");
 const tinggi = prompt("Masukkan tinggi segitiga!");
-const hasil = panjang * 0.5 * tinggi;
+const hasil = alas * 0.5 * tinggi;
 alert(`Jadi, luas segitiga adalah ${hasil}!`);
 console.log(hasil);
 //Hitung Luas Lingkaran
